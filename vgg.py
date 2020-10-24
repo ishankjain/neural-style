@@ -1,6 +1,8 @@
 # Copyright (c) 2015-2019 Anish Athalye. Released under GPLv3.
 
-import tensorflow as tf
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import numpy as np
 import scipy.io
 
